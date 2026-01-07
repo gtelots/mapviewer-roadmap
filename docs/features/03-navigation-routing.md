@@ -1,0 +1,41 @@
+# Navigation & Routing Features
+
+| Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
+| Navigation & Routing | Turn-by-Turn Navigation | Điều hướng từng bước | Hướng dẫn điều hướng từng bước với voice guidance tiếng Việt | Tính năng cốt lõi cho ứng dụng bản đồ, cạnh tranh với Google Maps | Phase 1 |
+| Navigation & Routing | Multi-Modal Routing | Định tuyến đa phương thức | Tính toán route cho xe hơi, xe máy, đi bộ, xe đạp, xe buýt | Phục vụ đa dạng phương tiện giao thông tại Việt Nam | Phase 1 |
+| Navigation & Routing | Real-time Traffic Data | Dữ liệu giao thông thực tế | Hiển thị tình hình giao thông real-time và tính toán route tránh tắc | Giúp người dùng tránh ùn tắc và tiết kiệm thời gian | Phase 1 |
+| Navigation & Routing | Traffic Prediction | Dự đoán giao thông | Dự đoán tình hình giao thông trong tương lai dựa trên AI/ML | Lập kế hoạch di chuyển tối ưu cho chuyến đi sau này | Phase 2 |
+| Navigation & Routing | Alternative Routes | Route thay thế | Đề xuất nhiều route khác nhau với thời gian và khoảng cách ước tính | Cho người dùng lựa chọn route phù hợp nhất | Phase 1 |
+| Navigation & Routing | Route Optimization | Tối ưu route | Tối ưu route cho nhiều điểm dừng (traveling salesman problem) | Quan trọng cho logistics và giao hàng | Phase 2 |
+| Navigation & Routing | Waypoint Management | Quản lý điểm dừng | Thêm, xóa, sắp xếp lại các điểm dừng trên route | Hỗ trợ lập kế hoạch chuyến đi phức tạp | Phase 1 |
+| Navigation & Routing | Avoid Highways | Tránh đường cao tốc | Tùy chọn route tránh đường cao tốc hoặc toll roads | Một số người dùng muốn tránh phí hoặc đường cao tốc | Phase 1 |
+| Navigation & Routing | Motorcycle-Specific Routes | Route cho xe máy | Tính route tối ưu cho xe máy, cho phép đi đường hẹp và ngõ | Xe máy là phương tiện chính tại Việt Nam, cần route riêng | Phase 1 |
+| Navigation & Routing | Public Transport Integration | Tích hợp giao thông công cộng | Hiển thị route xe buýt, metro với lịch trình và điểm dừng | Khuyến khích sử dụng giao thông công cộng | Phase 2 |
+| Navigation & Routing | Real-time Bus Tracking | Theo dõi xe buýt realtime | Hiển thị vị trí xe buýt real-time trên bản đồ | Giúp người dùng biết chính xác thời gian chờ xe buýt | Phase 2 |
+| Navigation & Routing | ETA Calculation | Tính thời gian đến | Tính toán thời gian đến dự kiến chính xác dựa trên traffic | Thông tin quan trọng nhất cho người dùng khi điều hướng | Phase 1 |
+| Navigation & Routing | Dynamic Rerouting | Điều hướng lại động | Tự động tính route mới khi có traffic jam hoặc đi sai đường | Đảm bảo route luôn tối ưu trong quá trình di chuyển | Phase 1 |
+| Navigation & Routing | Offline Navigation | Điều hướng offline | Hỗ trợ điều hướng khi không có internet với bản đồ đã tải | Quan trọng ở vùng sâu vùng xa hoặc khi roaming | Phase 2 |
+| Navigation & Routing | Voice Guidance | Hướng dẫn bằng giọng nói | Text-to-speech navigation instructions tiếng Việt tự nhiên | Người lái xe cần nghe hướng dẫn, không thể nhìn màn hình | Phase 1 |
+| Navigation & Routing | Lane Guidance | Hướng dẫn làn đường | Hiển thị làn đường cần đi ở ngã tư phức tạp | Giúp tránh nhầm làn ở các nút giao thông lớn | Phase 2 |
+| Navigation & Routing | Speed Limit Display | Hiển thị giới hạn tốc độ | Hiển thị giới hạn tốc độ hiện tại của đoạn đường | Giúp người lái tuân thủ luật giao thông | Phase 1 |
+| Navigation & Routing | Speed Camera Alerts | Cảnh báo camera tốc độ | Cảnh báo khi đến gần camera giám sát tốc độ | Giúp tránh vi phạm và phạt nguội | Phase 1 |
+| Navigation & Routing | Parking Information | Thông tin bãi đỗ xe | Hiển thị bãi đỗ xe gần điểm đến với giá và chỗ trống | Giải quyết vấn đề khó đỗ xe tại thành phố lớn | Phase 2 |
+| Navigation & Routing | EV Charging Stations | Trạm sạc xe điện | Hiển thị trạm sạc điện và routing tính đến phạm vi pin | Hỗ trợ xu hướng xe điện đang phát triển | Phase 2 |
+| Navigation & Routing | Fuel Station Finder | Tìm trạm xăng | Hiển thị trạm xăng gần nhất với giá cập nhật | Tiện lợi khi cần đổ xăng khẩn cấp | Phase 2 |
+| Navigation & Routing | Route Sharing | Chia sẻ route | Chia sẻ route và ETA với người khác qua link hoặc app | Cho phép người thân theo dõi hành trình | Phase 2 |
+| Navigation & Routing | Live Location Sharing | Chia sẻ vị trí trực tiếp | Chia sẻ vị trí real-time với người khác trong khoảng thời gian | Hữu ích cho nhóm đi chung hoặc theo dõi nhân viên | Phase 2 |
+| Navigation & Routing | Pedestrian Navigation | Điều hướng đi bộ | Route tối ưu cho người đi bộ với sidewalk và crosswalk | Phục vụ người đi bộ và du khách | Phase 1 |
+| Navigation & Routing | Cycling Routes | Route xe đạp | Route an toàn cho xe đạp với bike lane và ít traffic | Khuyến khích đạp xe, thân thiện môi trường | Phase 2 |
+| Navigation & Routing | Wheelchair Accessible Routes | Route cho xe lăn | Route tối ưu cho người khuyết tật với rampcurtb cuts | Accessibility là yếu tố quan trọng cho ứng dụng hiện đại | Phase 3 |
+| Navigation & Routing | Avoid Toll Roads | Tránh đường thu phí | Tùy chọn route tránh các trạm thu phí | Tiết kiệm chi phí cho người dùng | Phase 1 |
+| Navigation & Routing | Route History | Lịch sử route | Lưu các route đã đi để xem lại và tái sử dụng | Tiện lợi cho những route thường xuyên | Phase 2 |
+| Navigation & Routing | Favorite Routes | Route yêu thích | Lưu các route thường dùng để truy cập nhanh | Tiết kiệm thời gian cho người dùng thường xuyên | Phase 2 |
+| Navigation & Routing | Compass Mode | Chế độ la bàn | Hiển thị hướng bắc và heading hiện tại | Hỗ trợ định hướng và navigation | Phase 1 |
+| Navigation & Routing 🆕 | Immersive Route Preview | Xem trước route 3D | 3D cinematic preview của route trước khi bắt đầu điều hướng | Google Immersive View parity, tăng confidence người dùng | Phase 2 |
+| Navigation & Routing 🆕 | AR Walking Navigation | Điều hướng đi bộ AR | Overlay arrows và directions lên camera khi đi bộ | Google Live View parity, hữu ích cho du khách | Phase 2 |
+| Navigation & Routing 🆕 | Multi-Destination Optimizer | Tối ưu nhiều điểm đến | AI tối ưu thứ tự điểm dừng cho TSP (traveling salesman) | Giá trị cao cho delivery và sales | Phase 2 |
+| Navigation & Routing 🆕 | What3Words Integration | Tích hợp What3Words | Hỗ trợ địa chỉ 3 từ cho vị trí không có địa chỉ | Tiêu chuẩn ngành, hữu ích cho vùng nông thôn VN | Phase 2 |
+| Navigation & Routing 🆕 | School Zone Safety Alerts | Cảnh báo vùng trường học | Tự động giảm tốc độ và cảnh báo khi gần trường học | An toàn giao thông, yêu cầu xã hội | Phase 1 |
+| Navigation & Routing 🆕 | Weather-aware Routing | Định tuyến theo thời tiết | Điều chỉnh route dựa trên điều kiện thời tiết và ngập nước | Quan trọng cho VN trong mùa mưa | Phase 2 |
+| Navigation & Routing 🆕 | Predictive Departure Time | Thời gian khởi hành tối ưu | Gợi ý thời gian xuất phát tối ưu để đến đúng giờ | Tính năng Google Maps, tăng độ chính xác | Phase 2 |
