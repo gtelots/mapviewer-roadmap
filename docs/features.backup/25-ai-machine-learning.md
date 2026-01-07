@@ -3,7 +3,7 @@
 > **Category Added**: Based on Comprehensive Analysis Report - Critical gap identified vs. Google Maps Gemini capabilities
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |-------------------|----------------------|---------------------------|---------------------|
+|--------------|--------------|-------------------|----------------------|---------------------------|---------------------|
 | AI/ML | LLM Place Discovery | Tìm kiếm địa điểm bằng LLM | Cho phép tìm kiếm tự nhiên như "quán cà phê yên tĩnh có wifi gần đây" sử dụng Large Language Model | Cạnh tranh với Google Gemini, nâng cao trải nghiệm tìm kiếm | Phase 2 |
 | AI/ML | AI Trip Planner | Lập kế hoạch chuyến đi AI | Generative AI tạo lịch trình du lịch nhiều ngày với đặt chỗ và gợi ý | Tính năng Google Maps mới, thị trường du lịch lớn | Phase 2 |
 | AI/ML | Predictive Traffic Engine | Dự đoán giao thông ML | ML model dự đoán tình trạng giao thông 24 giờ tới | Tất cả đối thủ đều có, critical cho navigation | Phase 1 |
@@ -60,7 +60,7 @@
 ## Technical Requirements
 
 | Requirement | Specification |
-|-------------| --------------- |
+|-------------|---------------|
 | ML Framework | PyTorch / TensorFlow |
 | LLM Provider | OpenAI / Anthropic / Google or Self-hosted |
 | Training Data | Vietnam traffic patterns, user behavior logs |
@@ -70,7 +70,7 @@
 ## Success Metrics
 
 | Metric | Target (Year 1) | Target (Year 2) |
-|--------| ----------------- |-----------------|
+|--------|-----------------|-----------------|
 | ETA Accuracy | ±10% | ±5% |
 | Traffic Prediction Accuracy | 80% | 90% |
 | NLU Intent Recognition | 85% | 95% |

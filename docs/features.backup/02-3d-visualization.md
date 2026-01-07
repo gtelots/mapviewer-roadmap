@@ -1,7 +1,7 @@
 # 3D Visualization Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |------------|----------------|---------------------------|---------------------|
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
 | 3D Visualization | 3D Building Rendering | Render building 3D | Hiển thị các tòa nhà 3D với texture thực tế và độ cao chính xác | Tạo trải nghiệm bản đồ sống động và chân thực hơn | Phase 1 |
 | 3D Visualization | Textured 3D Models | Model 3D có texture | Import và hiển thị 3D models với texture chi tiết cho landmark và building | Tăng tính chân thực và khả năng nhận diện địa danh | Phase 2 |
 | 3D Visualization | Real-time Shadows | Bóng đổ thời gian thực | Hiển thị bóng đổ của building và object theo thời gian và vị trí mặt trời | Tăng tính chân thực và hỗ trợ phân tích ánh sáng cho quy hoạch | Phase 2 |
@@ -63,8 +63,3 @@
 | Camera & Navigation | Zoom Extent to Features | Zoom tới đối tượng | Tự động zoom để hiển thị tất cả đối tượng được chọn | Xem toàn bộ dữ liệu quan tâm | Phase 1 |
 | Camera & Navigation | First-Person View | Góc nhìn người thứ nhất | Chế độ xem góc người thứ nhất (street-level) | Trải nghiệm như đang ở thực tế | Phase 3 |
 | Camera & Navigation | Orbit Camera | Quay quanh điểm | Camera quay quanh một điểm trung tâm | Xem đối tượng 3D từ mọi góc độ | Phase 2 |
-| 3D Scene & 3D Tiles | 3D Mode Toggle | Chuyển 2D↔3D mượt | Chuyển 2D↔3D mượt | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
-| 3D Scene & 3D Tiles | 3D Tileset Loader | Tải tileset 3D Tiles theo ID/URL | Tải tileset 3D Tiles theo ID/URL | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
-| 3D Scene & 3D Tiles | 3D Feature Picking | Click đối tượng 3D để nhận diện/thông tin | Click đối tượng 3D để nhận diện/thông tin | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
-| 3D Scene & 3D Tiles | 3D Tiles Cache Control | Quản lý cache tile (kích thước, eviction). | Quản lý cache tile (kích thước, eviction). | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
-

@@ -4,35 +4,64 @@
 
 ## 📊 Executive Summary
 
-**Total Features**: 441+ comprehensive features across 19 major categories
+**Total Features**: 1,211 active features across 24 consolidated domains (+ 604 archived)
+**Feature Domains**: 24 core domains, organized by function and complexity
 **Target Market**: Vietnam-first, globally competitive
 **Competitive Advantage**: Deep Vietnam localization + Advanced 3D/4D + Professional GIS + IoT/ADAS + AI/ML integration
+**Documentation Status**: ✅ Consolidated structure, rescued important foundation features, clear domain separation
 
 > 📋 **Analysis Report**: See [Comprehensive Analysis and Enhancement Report](docs/COMPREHENSIVE_ANALYSIS_AND_ENHANCEMENT.md) for detailed competitive analysis and feature recommendations.
 
-### Feature Categories Overview
+### Feature Domains Overview
 
-| Category | Features | Focus Area | Implementation Phase |
-|----------|----------|------------|---------------------|
-| [Core Mapping](#01-core-mapping) | 31 | Foundation mapping capabilities | Phase 1 |
-| [3D Visualization](#02-3d-visualization) | 36 | Photorealistic 3D rendering | Phase 1-2 |
-| [Navigation & Routing](#03-navigation-routing) | 37 | Multi-modal intelligent routing | Phase 1 |
-| [IoT Integration](#04-iot-integration) | 25 | Real-time device tracking & fleet management | Phase 1 |
-| [Analytics & Reporting](#05-analytics-reporting) | 20 | Business intelligence & dashboards | Phase 2 |
-| [User & Collaboration](#06-user-collaboration) | 20 | Multi-tenant, team collaboration | Phase 1-2 |
-| [Mobile & Cross-Platform](#07-mobile-cross-platform) | 20 | iOS, Android, PWA, wearables | Phase 1 |
-| [Enterprise & Business](#08-enterprise-business) | 20 | White-label, SLA, compliance | Phase 2 |
-| [Developer API](#09-developer-api) | 28 | REST, GraphQL, gRPC, SDKs, integrations | Phase 1 |
-| [Performance & Optimization](#10-performance-optimization) | 20 | Speed, caching, GPU acceleration | Phase 1 |
-| [Security & Privacy](#11-security-privacy) | 22 | Encryption, compliance, access control | Phase 1-2 |
-| [Advanced Features](#12-advanced-features) | 30 | Blockchain, environmental monitoring | Phase 2-3 |
-| [Vietnam-Specific](#13-vietnam-specific) | 34 | 🇻🇳 Local features for VN market | Phase 1-2 |
-| [Automotive & ADAS](#14-automotive-adas) | 20 | Autonomous driving support | Phase 3 |
-| [Spatial Analysis & GIS](#15-spatial-analysis-gis) | 33 | Professional GIS tools | Phase 2 |
-| [Time-Dynamic & 4D](#16-time-dynamic-4d) | 18 | Temporal analytics & 4D visualization | Phase 2-3 |
-| [AI & Machine Learning](#17-ai-machine-learning) 🆕 | 12 | Predictive analytics, NLP, CV | Phase 1-3 |
-| [EV & Sustainability](#18-ev-sustainability) 🆕 | 10 | Electric vehicles, carbon tracking | Phase 1-2 |
-| [Social & Community](#19-social-community) 🆕 | 12 | Crowdsourcing, user contributions | Phase 1-2 |
+**TIER 1: CORE FOUNDATION** (6 domains)
+
+| Domain | Features | Focus Area | Implementation Phase |
+|--------|----------|------------|---------------------| 
+| [Core Mapping](#01-core-mapping) | 36 | Foundation mapping capabilities | Phase 1 |
+| [3D Visualization](#02-3d-visualization) | 70 | Photorealistic 3D rendering | Phase 1-2 |
+| [Layer Management](#03-layer-management) | 135 | Layer control, styling, basemaps | Phase 1-2 |
+| [Scene & Camera](#04-scene-camera) | 80 | Camera controls, scene management | Phase 1 |
+| [IoT Integration](#05-iot-integration) | 25 | Real-time device tracking & fleet | Phase 1 |
+| [Analytics & Reporting](#06-analytics-reporting) | 20 | Business intelligence & dashboards | Phase 2 |
+
+**TIER 2: USER INTERACTION** (4 domains)
+
+| Domain | Features | Focus Area | Implementation Phase |
+|--------|----------|------------|---------------------|
+| [Search & Geocoding](#07-search-geocoding) | 61 | Search, discovery, geocoding | Phase 1-2 |
+| [Navigation & Routing](#08-navigation-routing) | 72 | Multi-modal intelligent routing | Phase 1-2 |
+| [User & Collaboration](#09-user-collaboration) | 20 | Multi-tenant, team collaboration | Phase 1-2 |
+| [Measurement & Drawing](#10-measurement-drawing) | 82 | Measurement, annotation tools | Phase 1-2 |
+
+**TIER 3: ADVANCED FEATURES** (4 domains)
+
+| Domain | Features | Focus Area | Implementation Phase |
+|--------|----------|------------|---------------------|
+| [Indoor Features](#11-indoor-features) | 55 | Indoor mapping & navigation | Phase 2-3 |
+| [Spatial Analysis & GIS](#12-spatial-analysis-gis) | 33 | Professional GIS tools | Phase 2 |
+| [Time-Dynamic & 4D](#13-time-dynamic-4d) | 18 | Temporal analytics & 4D viz | Phase 2-3 |
+| [Identify & Query](#14-identify-query) | 31 | Feature identification & queries | Phase 1-2 |
+
+**TIER 4: INTEGRATION & PLATFORM** (5 domains)
+
+| Domain | Features | Focus Area | Implementation Phase |
+|--------|----------|------------|---------------------|
+| [Enterprise & Business](#14-enterprise-business) | 20 | White-label, SLA, compliance | Phase 2 |
+| [Developer API & SDK](#15-developer-api-sdk) | 62 | REST, GraphQL, SDKs | Phase 1-2 |
+| [Data Management](#16-data-management) | 46 | Import/export, integration | Phase 1-2 |
+| [Performance & Observability](#17-performance-observability) | 74 | Optimization, monitoring | Phase 1-2 |
+| [Security & Privacy](#18-security-privacy) | 78 | Encryption, compliance | Phase 1-2 |
+
+**TIER 5: SPECIALIZED MARKETS** (5 domains)
+
+| Domain | Features | Focus Area | Implementation Phase |
+|--------|----------|------------|---------------------|
+| [Vietnam-Specific](#20-vietnam-specific) 🇻🇳 | 34 | Local features for VN market | Phase 1-2 |
+| [Automotive & EV](#21-automotive-ev) | 30 | ADAS, autonomous driving, EV | Phase 2-3 |
+| [AI & Machine Learning](#22-ai-machine-learning) | 12 | Predictive analytics, NLP, CV | Phase 1-3 |
+| [Mobile & Cross-Platform](#23-mobile-platform) | 124 | iOS, Android, PWA, UI/UX, App Shell | Phase 1-2 |
+| [Spatial Analysis & GIS](#24-spatial-analysis-gis) | 33 | Advanced spatial analysis | Phase 2 |
 
 ---
 

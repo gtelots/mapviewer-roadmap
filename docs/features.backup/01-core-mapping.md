@@ -1,7 +1,7 @@
 # Core Mapping Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |------------|----------------|---------------------------|---------------------|
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
 | Core Mapping | Multi-Layer Map Rendering | Hiển thị bản đồ đa lớp | Hỗ trợ hiển thị nhiều lớp bản đồ đồng thời (đường phố, vệ tinh, địa hình, 3D buildings) với khả năng chuyển đổi mượt mà | Người dùng cần xem nhiều loại thông tin khác nhau trên cùng một bản đồ để có cái nhìn toàn diện | Phase 1 |
 | Core Mapping | Vector Tile Support | Hỗ trợ vector tile | Sử dụng vector tiles (MVT, GeoJSON) để render bản đồ với hiệu suất cao và khả năng tùy chỉnh style động | Giảm băng thông, tăng tốc độ tải, cho phép styling linh hoạt không cần tải lại dữ liệu | Phase 1 |
 | Core Mapping | Raster Tile Support | Hỗ trợ raster tile | Hỗ trợ các định dạng raster tile phổ biến (PNG, JPEG, WebP) từ nhiều nguồn khác nhau | Tương thích với các hệ thống bản đồ hiện có và dữ liệu lịch sử | Phase 1 |

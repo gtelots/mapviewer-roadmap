@@ -1,7 +1,7 @@
 # Enterprise & Business Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |------------|----------------|---------------------------|---------------------|
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
 | Enterprise | White Label Solution | Giải pháp white label | Rebrand toàn bộ app với logo, màu sắc, domain riêng | Doanh nghiệp muốn có app bản đồ riêng không thấy brand GTEL | Phase 2 |
 | Enterprise | On-Premise Deployment | Triển khai on-premise | Cài đặt hệ thống tại datacenter của khách hàng | Doanh nghiệp lớn cần kiểm soát data hoàn toàn | Phase 2 |
 | Enterprise | Private Cloud Deployment | Triển khai private cloud | Deploy trên private cloud (AWS VPC, Azure VNET) | Cân bằng giữa kiểm soát và chi phí infrastructure | Phase 2 |

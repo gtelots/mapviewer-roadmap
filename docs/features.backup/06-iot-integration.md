@@ -1,7 +1,7 @@
 # IoT Integration Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |------------|----------------|---------------------------|---------------------|
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
 | IoT Integration | Real-time Device Tracking | Theo dõi thiết bị realtime | Hiển thị vị trí realtime của thiết bị IoT, xe, nhân viên trên bản đồ | Core feature cho quản lý fleet và assets, vượt trội hơn đối thủ | Phase 1 |
 | IoT Integration | GPS Data Streaming | Stream dữ liệu GPS | Xử lý và hiển thị stream GPS từ hàng nghìn thiết bị đồng thời | Cần thiết cho hệ thống lớn với nhiều thiết bị IoT | Phase 1 |
 | IoT Integration | Device Status Visualization | Hiển thị trạng thái thiết bị | Hiển thị trạng thái thiết bị (online/offline/error) bằng màu và icon | Giúp quản lý nhanh chóng phát hiện thiết bị có vấn đề | Phase 1 |

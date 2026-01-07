@@ -1,7 +1,7 @@
 # User Management & Collaboration Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |------------|----------------|---------------------------|---------------------|
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
 | User Management | Multi-Tenant Architecture | Kiến trúc đa tenant | Hỗ trợ nhiều organization độc lập trên cùng hệ thống | Phục vụ nhiều doanh nghiệp với dữ liệu tách biệt | Phase 1 |
 | User Management | Role-Based Access Control | Phân quyền theo vai trò | RBAC chi tiết cho users, teams, và resources | Bảo mật và kiểm soát truy cập dữ liệu | Phase 1 |
 | User Management | Custom Permission Sets | Bộ quyền tùy chỉnh | Tạo permission sets tùy chỉnh cho nhu cầu riêng | Linh hoạt phù hợp với cơ cấu tổ chức khác nhau | Phase 2 |

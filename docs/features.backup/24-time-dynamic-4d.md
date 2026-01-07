@@ -1,7 +1,7 @@
 # Time-Dynamic & 4D Visualization Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |-------------------|----------------------|---------------------------|---------------------|
+|--------------|--------------|-------------------|----------------------|---------------------------|---------------------|
 | Time-Dynamic | Time Slider Control | Thanh trượt thời gian | Timeline slider để điều khiển hiển thị dữ liệu theo thời gian | Navigate qua temporal data trực quan | Phase 2 |
 | Time-Dynamic | Temporal Playback | Phát lại temporal | Play/pause/speed controls cho animation temporal data | Xem thay đổi theo thời gian tự động | Phase 2 |
 | Time-Dynamic | Time Range Filters | Lọc khoảng thời gian | Filter dữ liệu theo ngày/giờ bắt đầu và kết thúc | Phân  tích period cụ thể | Phase 2 |

@@ -1,7 +1,7 @@
 # Analytics & Reporting Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |------------|----------------|---------------------------|---------------------|
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
 | Analytics & Reporting | Dashboard Builder | Tạo dashboard | Builder kéo thả để tạo dashboard tùy chỉnh với widgets bản đồ | Mỗi doanh nghiệp cần dashboard riêng phù hợp nhu cầu | Phase 2 |
 | Analytics & Reporting | Real-time KPI Tracking | Theo dõi KPI realtime | Hiển thị KPI realtime trên bản đồ (số xe đang chạy, revenue, alerts) | Giám sát hoạt động kinh doanh theo thời gian thực | Phase 2 |
 | Analytics & Reporting | Automated Reports | Báo cáo tự động | Tạo và gửi báo cáo định kỳ (daily, weekly, monthly) qua email | Tiết kiệm thời gian và đảm bảo báo cáo đúng hạn | Phase 2 |

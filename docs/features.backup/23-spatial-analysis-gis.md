@@ -1,7 +1,7 @@
 # Advanced Spatial Analysis & GIS Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |-------------------|----------------------|---------------------------|---------------------|
+|--------------|--------------|-------------------|----------------------|---------------------------|---------------------|
 | Spatial Analysis | Buffer Analysis | Phân tích vùng đệm | Tạo buffer zones quanh features với khoảng cách tùy chỉnh | Cơ bản cho phân tích không gian | Phase 2 |
 | Spatial Analysis | Overlay Analysis | Phân tích chồng lớp | Intersect, union, difference operations trên polygons | Kết hợp nhiều lớp dữ liệu địa lý | Phase 2 |
 | Spatial Analysis | Proximity Analysis | Phân tích gần kề | Tìm features gần nhất và tính khoảng cách | Phân tích vị trí tối ưu | Phase 2 |

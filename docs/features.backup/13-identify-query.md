@@ -1,7 +1,7 @@
 # Identify & Query Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |------------|----------------|---------------------------|---------------------|
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
 | Identify & Query | Identify Popup | Popup thuộc tính | Popup hiển thị thuộc tính đối tượng khi click vào bản đồ | Xem thông tin nhanh về đối tượng trên bản đồ | Phase 1 |
 | Identify & Query | Feature Details Panel | Panel chi tiết | Panel chi tiết dạng có cấu trúc cho dữ liệu nhiều trường | Hiển thị thông tin phức tạp một cách có tổ chức | Phase 1 |
 | Identify & Query | Multi-Layer Identify | Identify đa lớp | Identify xuyên nhiều layer đang bật cùng lúc | Xem thông tin từ nhiều nguồn dữ liệu chồng lên nhau | Phase 1 |
@@ -21,14 +21,3 @@
 | Identify & Query | Highlight on Hover | Tô sáng khi rê chuột | Tô sáng đối tượng khi rê chuột qua | Xác định đối tượng trước khi click | Phase 1 |
 | Identify & Query | Feature Count | Đếm đối tượng | Hiển thị số lượng đối tượng trong selection hoặc layer | Thống kê nhanh dữ liệu | Phase 1 |
 | Identify & Query | Custom Popup Templates | Template popup tùy chỉnh | Tùy chỉnh cách hiển thị thông tin trong popup | Hiển thị thông tin phù hợp với ngữ cảnh nghiệp vụ | Phase 2 |
-| Foundation - Interaction & Identify | Click Select Basics | Tính năng click select basics | Tính năng click select basics | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Hover Highlight | Tính năng hover highlight | Tính năng hover highlight | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Properties Panel | Tính năng properties panel | Tính năng properties panel | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Attribute Formatting | Tính năng attribute formatting | Tính năng attribute formatting | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Copy Attribute | Tính năng copy attribute | Tính năng copy attribute | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Feature Locate Button | Tính năng feature locate button | Tính năng feature locate button | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Multi-Select Mode | Tính năng multi-select mode | Tính năng multi-select mode | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Selection Set Save | Tính năng selection set save | Tính năng selection set save | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Identify Across Layers | Quản lý và điều khiển identify across layers | Quản lý và điều khiển identify across layers | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Foundation - Interaction & Identify | Pixel/World Tolerance Control | Tính năng pixel/world tolerance control | Tính năng pixel/world tolerance control | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-

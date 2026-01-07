@@ -1,7 +1,7 @@
 # Vietnam-Specific Features
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
-|--------------| -------------- |-------------------|----------------------|---------------------------|---------------------|
+|--------------|--------------|-------------------|----------------------|---------------------------|---------------------|
 | Vietnam Localization | Vietnam Administrative Boundaries 2025-2026 | Cập nhật ranh giới hành chính VN mới | Cập nhật đầy đủ ranh giới tỉnh/huyện/xã theo điều chỉnh 2025-2026 với dữ liệu cũ và mới | Đảm bảo tuân thủ thay đổi hành chính chính thức của Việt Nam | Phase 1 |
 | Vietnam Localization | Vietnamese POI Database | Database điểm quan tâm Việt Nam | Database đầy đủ cơ quan nhà nước, bưu điện, UBND, trường học, bệnh viện công theo chuẩn VN | Phục vụ nhu cầu tìm kiếm cơ quan nhà nước và dịch vụ công | Phase 1 |
 | Vietnam Localization | Cold Penalty Camera Integration | Tích hợp camera phạt  nguội | Hiển thị vị trí camera phạt nguội trên toàn quốc với cảnh báo realtime | Giúp người lái tránh vi phạm giao thông và phạt nguội | Phase 1 |
