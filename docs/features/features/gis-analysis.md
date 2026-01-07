@@ -37,5 +37,5 @@
 | Terrain Analysis | Watershed Delineation | Phân định lưu vực | Tính ranh giới lưu vực nước | Quản lý tài nguyên nước | Phase 3 |
 | Terrain Analysis | Viewshed Analysis | Phân tích tầm nhìn | Tính vùng nhìn thấy từ một điểm | Quy hoạch và quân sự | Phase 2 |
 | Terrain Analysis | Cut and Fill | Đào đắp | Tính khối lượng đào đắp giữa 2 bề mặt | Xây dựng và quy hoạch | Phase 2 |
-| Terrain & Elevation | Elevation Query | Truy vấn độ cao tại điểm người dùng click | Truy vấn độ cao tại điểm người dùng click | Nâng cao trải nghiệm và khả năng sử dụng cho người dùng | Phase 2 |
-| Terrain & Elevation | Height Profile Tool | Biểu đồ cao độ theo tuyến (profile) | Biểu đồ cao độ theo tuyến (profile) | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Terrain & Elevation | Elevation Query | Truy vấn độ cao tại điểm người dùng click | Truy vấn độ cao tại điểm người dùng click với giao diện trực quan và hiệu năng cao | Nâng cao trải nghiệm và khả năng sử dụng cho người dùng | Phase 2 |
+| Terrain & Elevation | Height Profile Tool | Biểu đồ cao độ theo tuyến (profile) | Biểu đồ cao độ theo tuyến (profile) với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 2 |

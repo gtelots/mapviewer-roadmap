@@ -23,7 +23,7 @@
 | Advanced | Earthquake Early Warning | Cảnh báo sớm động đất | Tích hợp hệ thống cảnh báo động đất | An toàn cho người dùng | Phase 3 |
 | Advanced | Crowd-Sourced Data | Dữ liệu cộng đồng | Users đóng góp data (traffic, accidents, hazards) | Data real-time và accurate từ community | Phase 2 |
 | Advanced | Gamification | Trò chơi hóa | Points, badges, leaderboards cho contributors | Thu hút users contribute data | Phase 2 |
-| Advanced | Social Features | Tính năng xã hội | Check-in, reviews, photos, friends | Tạo community around app | Phase 2 |
+| Advanced | Social Features | xã hội | Check-in, reviews, photos, friends | Tạo community around app | Phase 2 |
 | Advanced | Event Discovery | Khám phá sự kiện | Hiển thị events đang diễn ra gần user | Giúp users khám phá activities | Phase 2 |
 | Advanced | Local Business Promotion | Quảng bá doanh nghiệp | Platform cho businesses quảng cáo trên map | Revenue stream từ local businesses | Phase 2 |
 | Advanced | Booking Integration | Tích hợp đặt chỗ | Book restaurant, hotel, services trực tiếp | One-stop platform cho users | Phase 3 |
@@ -31,6 +31,6 @@
 | Advanced | Insurance Telematics | Bảo hiểm telematics | Data cho usage-based insurance | Partnership với insurance companies | Phase 3 |
 | Advanced | Carbon Footprint Tracking | Theo dõi khí thải carbon | Calculate và track carbon emissions | ESG compliance và environmental awareness | Phase 3 |
 | Advanced | Multi-Language AI Translation | Dịch AI đa ngôn ngữ | Real-time translation cho reviews và content | Phục vụ users toàn cầu | Phase 2 |
-| Advanced | Accessibility Features | Tính năng trợ năng | Screen reader, high contrast, keyboard navigation | Inclusive cho người khuyết tật | Phase 2 |
+| Advanced | Accessibility Features | trợ năng | Screen reader, high contrast, keyboard navigation | Inclusive cho người khuyết tật | Phase 2 |
 | Advanced | Customizable Themes | Theme tùy chỉnh | Users tạo và share map themes | Personalization và community | Phase 2 |
 | Advanced | Advanced Search Filters | Bộ lọc tìm kiếm nâng cao | Filter POI theo nhiều criteria phức tạp | Find chính xác những gì cần | Phase 2 |

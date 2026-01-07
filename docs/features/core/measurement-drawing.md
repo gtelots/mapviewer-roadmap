@@ -4,43 +4,43 @@
 
 | Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
 |--------------| -------------- |------------|----------------|---------------------------|---------------------|
-| Measurement and Drawing | Measure Distance 2D | Tính năng measure distance 2d | Tính năng measure distance 2d | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Distance 3D | Tính năng measure distance 3d | Tính năng measure distance 3d | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Area | Tính năng measure area | Tính năng measure area | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Height | Tính năng measure height | Tính năng measure height | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Slope | Tính năng measure slope | Tính năng measure slope | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Profile Chart | Tính năng measure profile chart | Tính năng measure profile chart | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Point Marker | Tính năng draw point marker | Tính năng draw point marker | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Polyline | Tính năng draw polyline | Tính năng draw polyline | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Polygon | Tính năng draw polygon | Tính năng draw polygon | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Rectangle Tool | Tính năng draw rectangle tool | Tính năng draw rectangle tool | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Circle Tool | Tính năng draw circle tool | Tính năng draw circle tool | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Snap to Features | Tính năng snap to features | Tính năng snap to features | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Magnet to Ground | Tính năng magnet to ground | Tính năng magnet to ground | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw in 3D Space | Tính năng draw in 3d space | Tính năng draw in 3d space | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Annotation Text | Tính năng annotation text | Tính năng annotation text | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup List Panel | Tính năng markup list panel | Tính năng markup list panel | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Categories | Tính năng markup categories | Tính năng markup categories | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Import/Export | Tính năng markup import/export | Tính năng markup import/export | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Sharing Link | Tính năng markup sharing link | Tính năng markup sharing link | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Unit Settings | Tính năng measure unit settings | Tính năng measure unit settings | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Accuracy Mode | Tính năng measure accuracy mode | Tính năng measure accuracy mode | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measurement Report Export | Tính năng measurement report export | Tính năng measurement report export | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Style Presets | Tính năng draw style presets | Tính năng draw style presets | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Edit History | Tính năng draw edit history | Tính năng draw edit history | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Constraints (Orthogonal) | Tính năng draw constraints (orthogonal) | Tính năng draw constraints (orthogonal) | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Length Constraint | Tính năng draw length constraint | Tính năng draw length constraint | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Area Constraint | Tính năng draw area constraint | Tính năng draw area constraint | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Multi-Geometry Support | Tính năng multi-geometry support | Tính năng multi-geometry support | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Elevation Sampling Along Line | Tính năng elevation sampling along line | Tính năng elevation sampling along line | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Buffer Tool | Tính năng buffer tool | Tính năng buffer tool | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Intersect with Layers (Basic) | Quản lý và điều khiển intersect with layers (basic) | Quản lý và điều khiển intersect with layers (basic) | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measure Clearance | Tính năng measure clearance | Tính năng measure clearance | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw 3D Box Volume | Tính năng draw 3d box volume | Tính năng draw 3d box volume | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Draw Polyline Elevation Lock | Tính năng draw polyline elevation lock | Tính năng draw polyline elevation lock | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Measurement Snapshots | Tính năng measurement snapshots | Tính năng measurement snapshots | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Permission Modes | Tính năng markup permission modes | Tính năng markup permission modes | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Versioning Basic | Tính năng markup versioning basic | Tính năng markup versioning basic | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Comments | Tính năng markup comments | Tính năng markup comments | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Attachment | Tính năng markup attachment | Tính năng markup attachment | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
-| Measurement and Drawing | Markup Export Screenshot Bundle | Tính năng markup export screenshot bundle | Tính năng markup export screenshot bundle | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Measurement and Drawing | Measure Distance 2D | measure distance 2d | measure distance 2d với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Distance 3D | measure distance 3d | measure distance 3d với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Area | measure area | measure area với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Height | measure height | measure height với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Slope | measure slope | measure slope với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Profile Chart | measure profile chart | measure profile chart với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Point Marker | draw point marker | draw point marker với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Polyline | draw polyline | draw polyline với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Polygon | draw polygon | draw polygon với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Rectangle Tool | draw rectangle tool | draw rectangle tool với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Circle Tool | draw circle tool | draw circle tool với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Snap to Features | snap to features | snap to features với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Magnet to Ground | magnet to ground | magnet to ground với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw in 3D Space | draw in 3d space | draw in 3d space với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Annotation Text | annotation text | annotation text với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup List Panel | markup list panel | markup list panel với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Categories | markup categories | markup categories với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Import/Export | markup import/export | markup import/export với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Sharing Link | markup sharing link | markup sharing link với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Unit Settings | measure unit settings | measure unit settings với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Accuracy Mode | measure accuracy mode | measure accuracy mode với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measurement Report Export | measurement report export | measurement report export với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Style Presets | draw style presets | draw style presets với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Edit History | draw edit history | draw edit history với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Constraints (Orthogonal) | draw constraints (orthogonal) | draw constraints (orthogonal) với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Length Constraint | draw length constraint | draw length constraint với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Area Constraint | draw area constraint | draw area constraint với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Multi-Geometry Support | multi-geometry support | multi-geometry support với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Elevation Sampling Along Line | elevation sampling along line | elevation sampling along line với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Buffer Tool | buffer tool | buffer tool với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Intersect with Layers (Basic) | Quản lý và điều khiển intersect with layers (basic) | Quản lý và điều khiển intersect with layers (basic) với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measure Clearance | measure clearance | measure clearance với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw 3D Box Volume | draw 3d box volume | draw 3d box volume với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Draw Polyline Elevation Lock | draw polyline elevation lock | draw polyline elevation lock với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Measurement Snapshots | measurement snapshots | measurement snapshots với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Permission Modes | markup permission modes | markup permission modes với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Versioning Basic | markup versioning basic | markup versioning basic với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Comments | markup comments | markup comments với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Attachment | markup attachment | markup attachment với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
+| Measurement and Drawing | Markup Export Screenshot Bundle | markup export screenshot bundle | markup export screenshot bundle với giao diện trực quan và hiệu năng cao | Cải thiện trải nghiệm người dùng và tăng tính cạnh tranh | Phase 1 |
