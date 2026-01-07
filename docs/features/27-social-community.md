@@ -22,14 +22,9 @@
 | Waze Feature | GTEL Status | Priority |
 |--------------|-------------|----------|
 | Police/Speed Trap Reports | 🆕 Adding | Critical |
-| Accident Reports | 🆕 Adding | Critical |
-| Road Hazard Reports | 🆕 Adding | Critical |
-| Traffic Jam Reports | 🆕 Adding | Critical |
-| Road Closure Reports | 🆕 Adding | High |
 | Gas Prices | Existing (Vietnam-Specific) | - |
 | Voice Alerts | Existing (Navigation) | - |
 | Moods/Avatars | Defer | Low |
-| Carpooling | Defer | Low |
 
 ## Implementation Notes
 
@@ -136,9 +131,7 @@ Threshold reached → Display to all users
 |--------|-----------------|-----------------|
 | Active Contributors | 10,000 | 50,000 |
 | Daily Reports | 5,000 | 25,000 |
-| Report Accuracy | 85% | 92% |
 | Avg. Response Time | < 5 min | < 2 min |
-| User-Generated Photos | 50,000 | 250,000 |
 
 ## Privacy & Safety Considerations
 

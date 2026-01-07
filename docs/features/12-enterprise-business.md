@@ -18,7 +18,6 @@
 | Enterprise | Auto Scaling | Tự động scale | Tự động tăng/giảm resources theo traffic | Tối ưu chi phí và performance | Phase 2 |
 | Enterprise | CDN Integration | Tích hợp CDN | Phân phối map tiles qua CDN global | Tăng tốc độ tải bản đồ toàn cầu | Phase 1 |
 | Enterprise | Custom Domain | Domain tùy chỉnh | Sử dụng domain riêng cho service | Professional branding | Phase 1 |
-| Enterprise | IP Whitelisting | Whitelist IP | Giới hạn truy cập từ IP cụ thể | Bảo mật cho mạng nội bộ doanh nghiệp | Phase 2 |
 | Enterprise | VPN Integration | Tích hợp VPN | Chạy qua VPN của doanh nghiệp | Bảo mật kết nối cho remote workers | Phase 2 |
 | Enterprise | Contract Management | Quản lý hợp đồng | Quản lý licenses, subscriptions, renewals | Quản lý tài chính và compliance | Phase 2 |
 | Enterprise | Usage Metering | Đo lường sử dụng | Theo dõi usage để billing chính xác | Tính phí based on actual usage | Phase 2 |

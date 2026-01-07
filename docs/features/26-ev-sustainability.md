@@ -121,5 +121,4 @@
 | VN Charging Stations | ⭐⭐ | ⭐ | ⭐⭐⭐⭐⭐ |
 | VinFast Integration | ❌ | ❌ | ⭐⭐⭐⭐⭐ |
 | Range Overlay | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
-| Carbon Tracking | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐ |
 

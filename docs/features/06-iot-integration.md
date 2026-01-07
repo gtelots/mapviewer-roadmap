@@ -17,9 +17,7 @@
 | IoT Integration | Fleet Management | Quản lý đội xe | Quản lý toàn bộ đội xe với thống kê, báo cáo chi tiết | Giải pháp toàn diện cho công ty vận tải | Phase 1 |
 | IoT Integration | Trip Analytics | Phân tích chuyến đi | Phân tích chi tiết chuyến đi (khoảng cách, thời gian, tốc độ, dừng đỗ) | Tối ưu hóa vận hành và giảm chi phí nhiên liệu | Phase 2 |
 | IoT Integration | Fuel Monitoring | Giám sát nhiên liệu | Theo dõi mức nhiên liệu và cảnh báo tiêu hao bất thường | Phát hiện gian lận và tối ưu chi phí | Phase 2 |
-| IoT Integration | Driver Behavior Analysis | Phân tích hành vi lái xe | Đánh giá hành vi lái xe (giảm tốc đột ngột, tăng tốc, cornering) | Cải thiện an toàn và giảm chi phí bảo trì | Phase 2 |
 | IoT Integration | Maintenance Scheduling | Lập lịch bảo trì | Tự động lập lịch bảo trì dựa trên km và giờ hoạt động | Tránh hỏng hóc và tối ưu chi phí bảo dưỡng | Phase 2 |
-| IoT Integration | Asset Tracking | Theo dõi tài sản | Theo dõi vị trí và trạng thái các tài sản có GPS | Quản lý tài sản di động hiệu quả | Phase 1 |
 | IoT Integration | Temperature Monitoring | Giám sát nhiệt độ | Theo dõi nhiệt độ của container lạnh, kho hàng | Quan trọng cho cold chain logistics | Phase 2 |
 | IoT Integration | Door Sensor Integration | Tích hợp sensor cửa | Theo dõi trạng thái mở/đóng cửa xe tải | An ninh cho vận chuyển hàng hóa | Phase 2 |
 | IoT Integration | Panic Button | Nút báo động | Nhận và xử lý tín hiệu báo động từ thiết bị | An toàn cho lái xe và nhân viên | Phase 2 |
