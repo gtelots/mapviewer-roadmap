@@ -1,76 +1,45 @@
 # Measurement & Drawing Tools
-
 > Advanced features and implementation details for measurement & drawing tools.
 
-## 📋 Overview
-
-**Total Features**: ~39
-
-**Categories**: 2
-
----
-
-## Core - Measurement & Drawing
-
-
-**40 features**
-
-| # | Feature Name | Description | Details |
-|---|--------------|-------------|----------|
-| 1 | F301 Measure Distance 2D |  | What: Đo khoảng cách trên mặt đất. | Why: Khảo sát cơ bản. | Criteria: Click points → distance; unit correct; undo point. |
-| 2 | F302 Measure Distance 3D |  | What: Đo khoảng cách không gian (straight line). | Why: 3D cần độ cao. | Criteria: Shows 3D distance; includes height delta. |
-| 3 | F303 Measure Area |  | What: Đo diện tích polygon. | Why: Quy hoạch/kiểm kê. | Criteria: Close polygon auto; area correct; unit m²/ha. |
-| 4 | F304 Measure Height |  | What: Đo chênh cao giữa 2 điểm. | Why: Cốt lõi 3D. | Criteria: Shows height; handles no-hit gracefully. |
-| 5 | F305 Measure Slope |  | What: Đo độ dốc theo line. | Why: Phân tích địa hình. | Criteria: Outputs %/degrees; uses terrain height. |
-| 6 | F306 Measure Profile Chart |  | What: Biểu đồ độ cao theo tuyến. | Why: Phân tích nâng cao vừa. | Criteria: Chart renders; hover shows station/height. |
-| 7 | F307 Draw Point Marker |  | What: Tạo marker point. | Why: Ghi chú vị trí. | Criteria: Add marker; edit label; delete works. |
-| 8 | F308 Draw Polyline |  | What: Vẽ tuyến. | Why: Ghi chú, route plan. | Criteria: Vertex edit; snap optional; export. |
-| 9 | F309 Draw Polygon |  | What: Vẽ vùng. | Why: Khoanh vùng AOI. | Criteria: Edit vertices; area shown; style config. |
-| 10 | F310 Draw Rectangle Tool |  | What: Vẽ hình chữ nhật nhanh. | Why: Khoanh vùng nhanh. | Criteria: Drag to draw; resize handles. |
-| 11 | F311 Draw Circle Tool |  | What: Vẽ hình tròn theo bán kính. | Why: Phạm vi ảnh hưởng. | Criteria: Center+radius; numeric input supported. |
-| 12 | F312 Snap to Features |  | What: Snap tới vertex/edge của dữ liệu. | Why: Độ chính xác. | Criteria: Snap indicator; toggle; tolerance config. |
-| 13 | F313 Magnet to Ground |  | What: Clamp drawing xuống ground/terrain. | Why: Đúng với 3D. | Criteria: Draw points clamp; option absolute. |
-| 14 | F314 Draw in 3D Space |  | What: Vẽ polyline/polygon ở height absolute. | Why: Digital twin cơ bản. | Criteria: Height input; renders floating; edit height. |
-| 15 | F315 Annotation Text |  | What: Ghi chú text/callout. | Why: Truyền đạt. | Criteria: Text editable; style basic; export. |
-| 16 | F316 Markup List Panel |  | What: Danh sách markups của user. | Why: Quản lý ghi chú. | Criteria: List CRUD; zoom-to; visibility toggle. |
-| 17 | F317 Markup Categories |  | What: Phân loại markup theo tag. | Why: Tổ chức tốt hơn. | Criteria: Tag filter works; multi-tag. |
-| 18 | F318 Markup Import/Export |  | What: Import/export GeoJSON/KML (optional). | Why: Chia sẻ dữ liệu. | Criteria: Import validates; export matches schema. |
-| 19 | F319 Markup Sharing Link |  | What: Chia sẻ markup set qua link/token. | Why: Collaboration. | Criteria: Recipient opens → sees markups; permission enforce |
-| 20 | F320 Measure Unit Settings |  | What: Chọn đơn vị đo riêng cho tool. | Why: Phù hợp khách hàng. | Criteria: Change unit updates results; persisted. |
-| 21 | F321 Measure Accuracy Mode |  | What: Chọn sample terrain (fast/accurate). | Why: Cân bằng perf. | Criteria: Accurate mode slower but closer; UI indicates mode |
-| 22 | F322 Measurement Report Export |  | What: Xuất báo cáo đo đạc (PDF/CSV basic). | Why: Báo cáo. | Criteria: Export includes points and results; downloadable. |
-| 23 | F323 Draw Style Presets |  | What: Preset màu/độ dày/opacity cho markup. | Why: Chuẩn hoá. | Criteria: Choose preset applies; persists. |
-| 24 | F324 Draw Edit History |  | What: Undo/redo riêng cho 1 markup. | Why: Sửa an toàn. | Criteria: Undo works; redo works; bounded. |
-| 25 | F325 Draw Constraints (Orthogonal) |  | What: Khóa góc 90° khi vẽ. | Why: Đo vẽ kỹ thuật. | Criteria: Enable → segments snap 0/90; disable free. |
-| 26 | F326 Draw Length Constraint |  | What: Nhập chiều dài segment. | Why: Chính xác. | Criteria: Input length sets point; supports unit. |
-| 27 | F327 Draw Area Constraint |  | What: Nhập diện tích mục tiêu (optional). | Why: Thiết kế nhanh. | Criteria: Input area adjusts polygon; error within tolerance |
-| 28 | F328 Multi-Geometry Support |  | What: 1 markup gồm nhiều polygon/line. | Why: Phức hợp AOI. | Criteria: Add parts; delete part; export correct. |
-| 29 | F329 Elevation Sampling Along Line |  | What: Lấy mẫu height theo bước. | Why: Profile chính xác. | Criteria: Step size config; chart updates. |
-| 30 | F330 Buffer Tool |  | What: Tạo buffer quanh line/point. | Why: Phạm vi tác động. | Criteria: Buffer shown; radius input; export polygon. |
-| 31 | F331 Intersect with Layers (Basic) |  | What: Tính giao cắt markup với layer (count/area). | Why: Phân tích nhanh. | Criteria: Run intersect → result table; handles empty. |
-| 32 | F332 Measure Clearance |  | What: Đo khoảng hở giữa object và ground/other object. | Why: Hạ tầng/đường dây. | Criteria: Select objects → clearance shown; error if not sup |
-| 33 | F333 Draw 3D Box Volume |  | What: Vẽ hộp 3D và tính thể tích. | Why: Khối lượng sơ bộ. | Criteria: Box adjustable; volume shown; unit m³. |
-| 34 | F334 Draw Polyline Elevation Lock |  | What: Khóa độ cao đường vẽ. | Why: Vẽ tuyến trên cao. | Criteria: Enable lock; segments keep height ± tolerance. |
-| 35 | F335 Measurement Snapshots |  | What: Lưu snapshot kết quả đo (time-stamped). | Why: Tài liệu hoá. | Criteria: Snapshot list; reopen shows same geometry. |
-| 36 | F336 Markup Permission Modes |  | What: Private / Team / Public. | Why: Quản trị chia sẻ. | Criteria: Mode enforced; UI shows icon; audit recorded. |
-| 37 | F337 Markup Versioning Basic |  | What: Auto-save versions khi sửa. | Why: Khôi phục. | Criteria: See versions; restore version; diff basic. |
-| 38 | F338 Markup Comments |  | What: Comment thread trên markup. | Why: Review. | Criteria: Add comment; notify; resolve thread. |
-| 39 | F339 Markup Attachment |  | What: Đính kèm ảnh/file/link (policy-based). | Why: Hồ sơ hiện trường. | Criteria: Upload allowed types; size limit; virus scan place |
-| 40 | F340 Markup Export Screenshot Bundle |  | What: Xuất markup + screenshot gói zip. | Why: Báo cáo nhanh. | Criteria: Zip includes image+geojson+meta; reproducible. |
-
----
-
----
-
-## Drawing & Editing
-
-
-**10 features**
-
-| # | Feature Name | Description | Details |
-|---|--------------|-------------|----------|
-
----
-
----
-
+| Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
+| Core - Measurement & Drawing | Measure Distance 2D | Tính năng measure distance 2d | Tính năng measure distance 2d | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Distance 3D | Tính năng measure distance 3d | Tính năng measure distance 3d | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Area | Tính năng measure area | Tính năng measure area | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Height | Tính năng measure height | Tính năng measure height | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Slope | Tính năng measure slope | Tính năng measure slope | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Profile Chart | Tính năng measure profile chart | Tính năng measure profile chart | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Point Marker | Tính năng draw point marker | Tính năng draw point marker | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Polyline | Tính năng draw polyline | Tính năng draw polyline | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Polygon | Tính năng draw polygon | Tính năng draw polygon | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Rectangle Tool | Tính năng draw rectangle tool | Tính năng draw rectangle tool | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Circle Tool | Tính năng draw circle tool | Tính năng draw circle tool | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Snap to Features | Tính năng snap to features | Tính năng snap to features | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Magnet to Ground | Tính năng magnet to ground | Tính năng magnet to ground | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw in 3D Space | Tính năng draw in 3d space | Tính năng draw in 3d space | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Annotation Text | Tính năng annotation text | Tính năng annotation text | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup List Panel | Tính năng markup list panel | Tính năng markup list panel | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Categories | Tính năng markup categories | Tính năng markup categories | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Import/Export | Tính năng markup import/export | Tính năng markup import/export | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Sharing Link | Tính năng markup sharing link | Tính năng markup sharing link | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Unit Settings | Tính năng measure unit settings | Tính năng measure unit settings | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Accuracy Mode | Tính năng measure accuracy mode | Tính năng measure accuracy mode | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measurement Report Export | Tính năng measurement report export | Tính năng measurement report export | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Style Presets | Tính năng draw style presets | Tính năng draw style presets | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Edit History | Tính năng draw edit history | Tính năng draw edit history | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Constraints (Orthogonal) | Tính năng draw constraints (orthogonal) | Tính năng draw constraints (orthogonal) | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Length Constraint | Tính năng draw length constraint | Tính năng draw length constraint | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Area Constraint | Tính năng draw area constraint | Tính năng draw area constraint | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Multi-Geometry Support | Tính năng multi-geometry support | Tính năng multi-geometry support | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Elevation Sampling Along Line | Tính năng elevation sampling along line | Tính năng elevation sampling along line | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Buffer Tool | Tính năng buffer tool | Tính năng buffer tool | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Intersect with Layers (Basic) | Quản lý và điều khiển intersect with layers (basic) | Quản lý và điều khiển intersect with layers (basic) | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measure Clearance | Tính năng measure clearance | Tính năng measure clearance | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw 3D Box Volume | Tính năng draw 3d box volume | Tính năng draw 3d box volume | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Draw Polyline Elevation Lock | Tính năng draw polyline elevation lock | Tính năng draw polyline elevation lock | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Measurement Snapshots | Tính năng measurement snapshots | Tính năng measurement snapshots | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Permission Modes | Tính năng markup permission modes | Tính năng markup permission modes | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Versioning Basic | Tính năng markup versioning basic | Tính năng markup versioning basic | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Comments | Tính năng markup comments | Tính năng markup comments | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Attachment | Tính năng markup attachment | Tính năng markup attachment | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |
+| Core - Measurement & Drawing | Markup Export Screenshot Bundle | Tính năng markup export screenshot bundle | Tính năng markup export screenshot bundle | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 1 |

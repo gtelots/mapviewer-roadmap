@@ -1,39 +1,20 @@
 # Advanced Security & Governance
-
 > Advanced features and implementation details for advanced security & governance.
 
-## 📋 Overview
-
-**Total Features**: ~14
-
-**Categories**: 1
-
----
-
-## Advanced - Security & Governance
-
-
-**15 features**
-
-| # | Feature Name | Description | Details |
-|---|--------------|-------------|----------|
-| 1 | F456 CORS/Referrer Restrictions |  | What: Hỗ trợ giới hạn domain referrer cho key. | Why: Chống lộ key. | Criteria: Wrong domain → denied; correct domain → ok. |
-| 2 | F457 Token Scope Enforcement |  | What: UI chỉ gọi API đúng scope. | Why: Least privilege. | Criteria: No scope → request blocked client-side + server-si |
-| 3 | F458 Sensitive Field Masking |  | What: Mask field nhạy cảm trong properties. | Why: Privacy. | Criteria: Masked by default; role-based reveal. |
-| 4 | F459 PII Redaction in Logs |  | What: Xoá PII khỏi log/telemetry. | Why: Compliance. | Criteria: Logs contain no email/phone; validated by tests. |
-| 5 | F460 Download/Export Policy Controls |  | What: Chính sách bật/tắt export theo tenant. | Why: Ngăn rò rỉ dữ liệu. | Criteria: Policy off → export buttons hidden + API blocked. |
-| 6 | F461 Watermark with User ID |  | What: Watermark có user/session id (optional). | Why: Răn đe leak. | Criteria: Export includes watermark; cannot disable if enfor |
-| 7 | F462 View-Only Hardening |  | What: Chặn devtools hooks (best-effort) + disable edit e | Why: Bảo vệ basic. | Criteria: View-only mode prevents write calls; audit shows a |
-| 8 | F463 Content Security Policy Compatibility |  | What: Không dùng inline script; nonce ready. | Why: Hardening. | Criteria: App runs under strict CSP; documented headers. |
-| 9 | F464 Secure File Attachment Handling |  | What: Sanitize/scan attachments (stub). | Why: An toàn. | Criteria: Blocked types rejected; size limits; logs recorded |
-| 10 | F465 Session MFA Prompt Integration |  | What: Flow yêu cầu MFA cho action nhạy cảm. | Why: Bảo mật. | Criteria: Export restricted → MFA required; success continue |
-| 11 | F466 Audit Event Signing (Optional) |  | What: Ký event client-side (optional). | Why: Chống giả mạo log. | Criteria: Event has signature; server verifies or ignores. |
-| 12 | F467 Data Residency Mode |  | What: Chọn region endpoint theo policy. | Why: Compliance. | Criteria: Region locked; cannot call other regions; tested. |
-| 13 | F468 Security Diagnostics Report |  | What: Báo cáo cấu hình security hiện tại. | Why: Kiểm tra nhanh. | Criteria: Report includes CSP/CORS/masking status; exportabl |
-| 14 | F469 RBAC-Aware UI Testing Hooks |  | What: Hooks test xác nhận UI theo role. | Why: Đảm bảo phân quyền. | Criteria: Test role matrix passes; no forbidden button visib |
-| 15 | F470 Tamper-Evident Share Links |  | What: Link share có chữ ký + expiry. | Why: Chống sửa param. | Criteria: Modified params → invalid; expiry enforced. |
-
----
-
----
-
+| Feature Group | Feature Name | Short Description | Detailed Description | Why This Feature is Needed | Implementation Phase |
+|--------------|--------------|------------|----------------|---------------------------|---------------------|
+| Advanced - Security & Governance | CORS/Referrer Restrictions | Tính năng cors/referrer restrictions | Tính năng cors/referrer restrictions | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Token Scope Enforcement | Tính năng token scope enforcement | Tính năng token scope enforcement | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Sensitive Field Masking | Tính năng sensitive field masking | Tính năng sensitive field masking | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | PII Redaction in Logs | Tính năng pii redaction in logs | Tính năng pii redaction in logs | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Download/Export Policy Controls | Tính năng download/export policy controls | Tính năng download/export policy controls | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Watermark with User ID | Tính năng watermark with user id | Tính năng watermark with user id | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | View-Only Hardening | Tính năng view-only hardening | Tính năng view-only hardening | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Content Security Policy Compatibility | Tính năng bảo mật và kiểm soát truy cập | Tính năng bảo mật và kiểm soát truy cập | Tăng cường bảo mật và tuân thủ quy định | Phase 2 |
+| Advanced - Security & Governance | Secure File Attachment Handling | Tính năng secure file attachment handling | Tính năng secure file attachment handling | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Session MFA Prompt Integration | Tính năng session mfa prompt integration | Tính năng session mfa prompt integration | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Audit Event Signing (Optional) | Tính năng audit event signing (optional) | Tính năng audit event signing (optional) | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Data Residency Mode | Tính năng data residency mode | Tính năng data residency mode | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Security Diagnostics Report | Tính năng bảo mật và kiểm soát truy cập | Tính năng bảo mật và kiểm soát truy cập | Tăng cường bảo mật và tuân thủ quy định | Phase 2 |
+| Advanced - Security & Governance | RBAC-Aware UI Testing Hooks | Tính năng rbac-aware ui testing hooks | Tính năng rbac-aware ui testing hooks | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
+| Advanced - Security & Governance | Tamper-Evident Share Links | Tính năng tamper-evident share links | Tính năng tamper-evident share links | Nâng cao khả năng và tính linh hoạt của hệ thống | Phase 2 |
